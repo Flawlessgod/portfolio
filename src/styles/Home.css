@@ -1,0 +1,90 @@
+.home {
+  width: 100%;
+  align-items: center;
+  font-family: "Tahoma";
+  background: #31e1e7;
+}
+
+.about {
+  width: 100%;
+  height: calc(100vh - 300px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.about h2 {
+  font-family: "Tahoma";
+  font-size: 40px;
+  color: #0c0c0c;
+  height: 50px;
+}
+
+.about .prompt {
+  width: 40%;
+  font-size: 20px;
+  color: #0c0c0c;
+}
+.prompt svg {
+  font-size: 40px;
+  margin: 5px;
+  color: rgb(105, 23, 23);
+}
+
+.skills {
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill {
+  size: 50px;
+}
+
+.skills .list {
+  list-style: none;
+  width: 60%;
+}
+
+.list span {
+  font-size: 20px;
+}
+
+.item {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .about h2 {
+    font-size: 40px;
+  }
+
+  .about .prompt {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .skills {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .list {
+    padding: 0;
+  }
+
+  .skills h2 {
+    font-size: 30px;
+  }
+
+  .item {
+    text-align: center;
+  }
+}
