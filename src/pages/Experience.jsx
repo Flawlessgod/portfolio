@@ -31,6 +31,9 @@ function Experience() {
               to a team, province wide).{" "}
             </p>
             <p> First place Singles in City Badminton. </p>
+            <p> First place Provincial div 1 soccer. </p>
+            <p> Third place Provincial Triathalon. </p>
+            <p> Seventh place Provincial Cross Counrty. </p>
           </div>
         </VerticalTimelineElement>
 
@@ -67,7 +70,7 @@ function Experience() {
         {/* fourth experience */}
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2020"
+          date="2024 (expected)"
           iconStyle={{ background: "#31e1e7", color: "#fff" }}
           icon={<SchoolIcon />}
         >
