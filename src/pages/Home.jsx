@@ -6,6 +6,17 @@ import Resume from "@mui/icons-material/Article";
 import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
+import Typical from "react-typical";
+
+const steps = [
+  "self-driven",
+  1000,
+  "task-oriented",
+  1000,
+  "computer science student",
+  4000,
+];
+
 function Home() {
   return (
     <div className="Home">
@@ -13,8 +24,7 @@ function Home() {
         <h2>Hello, I am Christophe</h2>
         <div className="prompt">
           <p>
-            Welcome! I am a self-driven and task-oriented third year computer
-            science student{" "}
+            <Typical wrapper="span" loop={1} steps={steps} />
           </p>
           <LinkedInIcon />
           <Resume />
@@ -22,7 +32,6 @@ function Home() {
           <GitHubIcon />
         </div>
       </div>
-
       <div className="skills">
         <ol className="list">
           <li className="item">
