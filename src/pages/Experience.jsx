@@ -22,18 +22,18 @@ function Experience() {
         >
           <div className="paragraph">
             <h3 className="vertical-timeline-element-title">
-              Walter Murray Sk, SK{" "}
+              Walter Murray Collegiate{" "}
             </h3>
-            <p> French Immersion High Honours. </p>
+            <p> French Immersion (High Honours). </p>
             <p>
               {" "}
               WMCI Invitational Math Team Challenge 1st place award (3 members
-              to a team, province wide).{" "}
+              to a team, province-wide).{" "}
             </p>
-            <p> First place Singles in City Badminton. </p>
-            <p> First place Provincial div 1 soccer. </p>
-            <p> Third place Provincial Triathalon. </p>
-            <p> Seventh place Provincial Cross Counrty. </p>
+            <p> First place (Singles) in City Badminton. </p>
+            <p> First place (Provincial) division 1 soccer. </p>
+            <p> Third place (Provincial) Triathalon. </p>
+            <p> Seventh place (Provincial) Cross-Counrty. </p>
           </div>
         </VerticalTimelineElement>
 
@@ -48,6 +48,25 @@ function Experience() {
             University of Saskatchewan SK, SK{" "}
           </h3>
           <p> Chemistry (B.Sc. Four-year)</p>
+          <p> Particular interest in environmental and analytical chemistry</p>
+        </VerticalTimelineElement>
+
+        {/* 2.5 experience */}
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2012-2020"
+          iconStyle={{ background: "#31e1e7", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">Work & Life </h3>
+          <p> Lifeguard</p>
+          <p> Badminton instructor</p>
+          <p> First Marathon (3h 30min) </p>
+          <p> Nursing (3-years) </p>
+          <p>
+            {" "}
+            Ornithology (Banding of Great Horned Owls, Bald eagles, Raptors){" "}
+          </p>
         </VerticalTimelineElement>
 
         {/* third experience */}
