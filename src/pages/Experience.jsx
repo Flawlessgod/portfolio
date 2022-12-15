@@ -38,21 +38,7 @@ function Experience() {
           </div>
         </VerticalTimelineElement>
 
-        {/* second experience */}
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2020"
-          iconStyle={{ background: "#31e1e7", color: "#fff" }}
-          icon={<SchoolIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            University of Saskatchewan SK, SK{" "}
-          </h3>
-          <p> Chemistry (B.Sc. Four-year)</p>
-          <p> Particular interest in environmental and analytical chemistry</p>
-        </VerticalTimelineElement>
-
-        {/* 2.5 experience */}
+        {/* 2 experience */}
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2012-2020"
@@ -68,6 +54,20 @@ function Experience() {
             {" "}
             Ornithology (Banding of Great Horned Owls, Bald eagles, Raptors){" "}
           </p>
+        </VerticalTimelineElement>
+
+        {/* 2.5 experience */}
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2020"
+          iconStyle={{ background: "#31e1e7", color: "#fff" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            University of Saskatchewan SK, SK{" "}
+          </h3>
+          <p> Chemistry (B.Sc. Four-year)</p>
+          <p> Particular interest in environmental and analytical chemistry</p>
         </VerticalTimelineElement>
 
         {/* third experience */}
