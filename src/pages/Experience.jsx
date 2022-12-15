@@ -8,6 +8,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
+import HouseIcon from "@mui/icons-material/House";
 
 function Experience() {
   return (
@@ -55,8 +56,8 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2012-2020"
-          iconStyle={{ background: "#31e1e7", color: "#fff" }}
-          icon={<WorkIcon />}
+          iconStyle={{ background: "#d4af37", color: "#fff" }}
+          icon={<HouseIcon />}
         >
           <h3 className="vertical-timeline-element-title">Work & Life </h3>
           <p> Lifeguard</p>
@@ -73,7 +74,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2020"
-          iconStyle={{ background: "#31e1e7", color: "#fff" }}
+          iconStyle={{ background: "#6c25be", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">Kelowna Bc, Ca </h3>
