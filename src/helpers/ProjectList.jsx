@@ -1,8 +1,9 @@
-import proj1 from "../assets/corrupt.jpg";
+import Proj1 from "../assets/corrupt.jpg";
 
-export const projectList = [
+export const ProjectList = [
   {
-    name: "dijkstra's algorithm visualizer",
-    image: proj1,
+    name: "Anti-Vigilantism Project",
+    image: Proj1,
+    skills: "JavaScript,HTML,CSS",
   },
 ];

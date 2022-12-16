@@ -9,7 +9,6 @@ function Navbar() {
   return (
     // if navbar is open else its closed
     <div className="navbar" id={expandNavbar ? "open" : "close"}>
-      Navbar
       <div className="toggleButton">
         <button
           onClick={() => {

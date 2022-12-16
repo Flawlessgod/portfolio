@@ -14,7 +14,7 @@ const steps = [
   "task-oriented",
   1000,
   "computer science student",
-  4000,
+  1000,
 ];
 
 function Home() {
