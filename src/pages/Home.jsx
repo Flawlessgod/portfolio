@@ -26,10 +26,20 @@ function Home() {
           <p>
             <Typical wrapper="span" loop={1} steps={steps} />
           </p>
+
           <LinkedInIcon />
-          <Resume />
-          <EmailIcon />
-          <GitHubIcon />
+
+          <a href="https://docs.google.com/document/d/1QqB4ymzBy0qEQWiPLtwwrZapeMGxI-OFcIX5eJrgnDM/edit?usp=sharing">
+            <Resume />
+          </a>
+
+          <a href="mailto:christophequentingerard@gmail.com">
+            <EmailIcon />
+          </a>
+
+          <a href="https://github.com/Flawlessgod">
+            <GitHubIcon />
+          </a>
         </div>
       </div>
       <div className="skills">
