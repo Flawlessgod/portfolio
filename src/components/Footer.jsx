@@ -11,9 +11,18 @@ function Footer() {
     <div className="footer">
       <div className="socialMedia">
         <LinkedInIcon />
-        <Resume />
-        <EmailIcon />
-        <GitHubIcon />
+
+        <a href="https://docs.google.com/document/d/1QqB4ymzBy0qEQWiPLtwwrZapeMGxI-OFcIX5eJrgnDM/edit?usp=sharing">
+          <Resume />
+        </a>
+
+        <a href="mailto:christophequentingerard@gmail.com">
+          <EmailIcon />
+        </a>
+
+        <a href="https://github.com/Flawlessgod">
+          <GitHubIcon />
+        </a>
       </div>
       <p>&copy; 2022 Christophe Gerard</p>
     </div>
