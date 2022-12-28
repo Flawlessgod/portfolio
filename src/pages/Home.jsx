@@ -27,7 +27,7 @@ function Home() {
             <Typical wrapper="span" loop={1} steps={steps} />
           </p>
 
-          <LinkedInIcon />
+          {/* <LinkedInIcon /> */}
 
           <a href="https://docs.google.com/document/d/1QqB4ymzBy0qEQWiPLtwwrZapeMGxI-OFcIX5eJrgnDM/edit?usp=sharing">
             <Resume />
