@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Home.css";
-
+// on new setup had to install "npm i react-router-dom --legacy-peer-deps"
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import Resume from "@mui/icons-material/Article";
 import EmailIcon from "@mui/icons-material/Email";
@@ -27,7 +27,9 @@ function Home() {
             <Typical wrapper="span" loop={1} steps={steps} />
           </p>
 
-          {/* <LinkedInIcon /> */}
+          <a href="https://www.linkedin.com/in/christophe-gerard-449743260/">
+          <LinkedInIcon />
+          </a>
 
           <a href="https://docs.google.com/document/d/1QqB4ymzBy0qEQWiPLtwwrZapeMGxI-OFcIX5eJrgnDM/edit?usp=sharing">
             <Resume />

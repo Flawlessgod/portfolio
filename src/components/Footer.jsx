@@ -10,7 +10,10 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        {/* <LinkedInIcon /> */}
+
+       <a href="https://www.linkedin.com/in/christophe-gerard-449743260/">
+          <LinkedInIcon />
+        </a>
 
         <a href="https://docs.google.com/document/d/1QqB4ymzBy0qEQWiPLtwwrZapeMGxI-OFcIX5eJrgnDM/edit?usp=sharing">
           <Resume />
