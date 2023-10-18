@@ -28,7 +28,7 @@ function Home() {
           </p>
 
           <a href="https://www.linkedin.com/in/christophe-gerard-449743260/">
-            <LinkedInIcon />
+          <LinkedInIcon />
           </a>
 
           <a href="https://docs.google.com/document/d/1QqB4ymzBy0qEQWiPLtwwrZapeMGxI-OFcIX5eJrgnDM/edit?usp=sharing">
@@ -63,7 +63,7 @@ function Home() {
           <ol className="list">
             <li className="item">
               <div>Back-End</div>
-              <span>MySql</span>
+              <span>N/A</span>
             </li>
           </ol>
         </div>
