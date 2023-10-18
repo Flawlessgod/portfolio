@@ -87,6 +87,23 @@ function Experience() {
           </p>
         </VerticalTimelineElement>
 
+        {/* 3.5 */}
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2022"
+          iconStyle={{ background: "#6c25be", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Prince Alber Sk, Ca{" "}
+          </h3>
+          <p> Parks Canada</p>
+          <p>
+            Visitor Center. Responsible for payments, Federal Licencing,
+            triaging of visitor concerns.{" "}
+          </p>
+        </VerticalTimelineElement>
+
         {/* fourth experience */}
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
