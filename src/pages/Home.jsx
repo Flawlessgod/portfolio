@@ -63,7 +63,7 @@ function Home() {
           <ol className="list">
             <li className="item">
               <div>Back-End</div>
-              <span>N/A</span>
+              <span>MySQL, Posgre</span>
             </li>
           </ol>
         </div>
@@ -72,7 +72,7 @@ function Home() {
           <ol className="list">
             <li className="item">
               <div>Languages</div>
-              <span>Java, Python, Javascript</span>
+              <span>Java, Javascript, C#, Scala, Python</span>
             </li>
           </ol>
         </div>
