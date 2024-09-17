@@ -13,7 +13,7 @@ const steps = [
   1000,
   "task-oriented",
   1000,
-  "computer science student",
+  "Computer Science Graduate",
   1000,
 ];
 
@@ -28,7 +28,7 @@ function Home() {
           </p>
 
           <a href="https://www.linkedin.com/in/christophe-gerard-449743260/">
-          <LinkedInIcon />
+            <LinkedInIcon />
           </a>
 
           <a href="https://docs.google.com/document/d/1QqB4ymzBy0qEQWiPLtwwrZapeMGxI-OFcIX5eJrgnDM/edit?usp=sharing">
